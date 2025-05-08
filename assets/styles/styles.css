@@ -39,10 +39,31 @@ body {
 h1 {
     font-size: 3rem;
     line-height: 1;
+    font-family: "Roboto black";
 }
 
 p{
     font-size: 1.35rem;
+}
+
+.row {
+    display: flex;
+    gap: 3rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.three-cols h2 {
+    color: #87629A;
+    font-size: 2.25rem;
+    font-family: "Roboto black";
+}
+
+.two-cols {
+    color: #fff;
+    background: #136C72;
 }
 
 
